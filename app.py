@@ -11,9 +11,18 @@ BACKGROUND_COLOR = "#ffeba1"
 SOUND = ""
 
 
+# Цвет смайла:  #030418
+
+# координаты x пикселей смайла
+
+x_coords_when_y_equals_2 = []
+x_coords_when_y_equals_3 = []
+x_coords_when_y_equals_7 = []
+x_coords_when_y_equals_8 = []
+
+
 # отрисовка
 def draw(window):
-    
-    Pixel(window, x=5, y=1, color="brown", size=PIXEL_SIZE)
     # Здесь пиши свой код
- 
+    
+    Pixel(window, x=1, y=2, color="#030418", size=PIXEL_SIZE)
